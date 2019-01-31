@@ -37,7 +37,31 @@ const siteContent = {
   },
 };
 
+
+// Header navigation
+const aTag = document.querySelectorAll('header nav a');
+const site_content = Object.values(siteContent.nav);
+
+for(let i = 0; i < aTag.length; i++) {
+  aTag[i].textContent = site_content[i];
+}
+
+
 // Example: Update the img src for the logo
+// Great Idea lightbulb logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
-console.log(logo);
+
+
+
+// Call to action 
+const cta = document.querySelector('h1');
+cta.textContent = "DOM  IS AWESOME";
+
+// CTA button
+const ctaBtn = document.querySelector('button');
+ctaBtn.textContent = "Get Started";
+
+//CTA img 
+const  ctaImg = document.getElementById('cta-img');
+ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
