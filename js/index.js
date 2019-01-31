@@ -117,3 +117,28 @@ vision.textContent = "VISION";
 // vision text 
 const visionText = document.querySelector('.bottom-content .text-content:nth-child(3) p');
 visionText.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+
+
+
+// contact info 
+const contact = document.querySelector('.contact h4');
+contact.textContent = "CONTACT";
+
+// address
+const address = document.querySelector('.contact p:nth-child(2)');
+address.textContent = "123 Way 456 Street Somewhere, USA";
+
+// phone number
+const phoneNumber = document.querySelector('.contact p:nth-child(3)');
+phoneNumber.textContent = "1 (888) 888-8888";
+
+// email 
+const email = document.querySelector('.contact p:nth-child(4)');
+email.textContent = "sales@greatidea.io";
+
+
+
+// footer 
+const footer = document.querySelector('footer p');
+footer.textContent = "Copyright Great Idea 2018";
