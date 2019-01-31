@@ -65,3 +65,27 @@ ctaBtn.textContent = "Get Started";
 //CTA img 
 const  ctaImg = document.getElementById('cta-img');
 ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
+
+
+
+
+// Middle content 
+//features
+const features = document.querySelector('.text-content:first-child h4'); 
+features.textContent = "Features";
+
+// features text
+const featureText = document.querySelector('.text-content:first-child p');
+featureText.textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+
+// about features
+const about = document.querySelector('.text-content:last-child h4');
+about.textContent = "About";
+
+// about features text
+const aboutText = document.querySelector('.text-content:last-child p');
+aboutText.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+// Code snippets img
+const codeSnips = document.getElementById('middle-img');
+codeSnips.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
