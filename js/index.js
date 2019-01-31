@@ -72,7 +72,7 @@ ctaImg.setAttribute('src', siteContent["cta"]["img-src"]);
 // Middle content 
 //features
 const features = document.querySelector('.text-content:first-child h4'); 
-features.textContent = "Features";
+features.textContent = "FEATURES";
 
 // features text
 const featureText = document.querySelector('.text-content:first-child p');
@@ -80,7 +80,7 @@ featureText.textContent = 'Features content elementum magna eros, ac posuere elv
 
 // about features
 const about = document.querySelector('.text-content:last-child h4');
-about.textContent = "About";
+about.textContent = "ABOUT";
 
 // about features text
 const aboutText = document.querySelector('.text-content:last-child p');
@@ -89,3 +89,31 @@ aboutText.textContent = "About content elementum magna eros, ac posuere elvit te
 // Code snippets img
 const codeSnips = document.getElementById('middle-img');
 codeSnips.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+
+
+
+// Bottom content
+//services
+const services = document.querySelector('.bottom-content .text-content:nth-child(1) h4');
+services.textContent = 'SERVICES';
+
+//services text
+const servicesText = document.querySelector('.bottom-content .text-content:nth-child(1) p');
+servicesText.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//product
+const product = document.querySelector('.bottom-content .text-content:nth-child(2) h4');
+product.textContent = "Product";
+
+//product text
+const productText = document.querySelector('.bottom-content .text-content:nth-child(2) p');
+productText.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+// vision 
+const vision = document.querySelector('.bottom-content .text-content:nth-child(3) h4');
+vision.textContent = "VISION";
+
+// vision text 
+const visionText = document.querySelector('.bottom-content .text-content:nth-child(3) p');
+visionText.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
